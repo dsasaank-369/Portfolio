@@ -5,5 +5,48 @@ body {
 }
 
 #first {
+  display: flex;
   height: 100vh;
+  min-height: 500px;
+}
+
+.first-container {
+  margin: auto 0 auto 80px;
+}
+
+.social-icons {
+  margin: auto 40 auto auto;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons i {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 50%;
+  color: black;
+}
+
+.first-container p {
+  color: white;
+  font-size: 25px;
+}
+
+.first-container h1 {
+  color: white;
+
+  font-size: 75px;
+}
+
+.first-container span {
+  color: red;
+}
+
+.typing {
+  font-weight: 500;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 8px;
 }
