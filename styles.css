@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#first {
+  height: 100vh;
+}
