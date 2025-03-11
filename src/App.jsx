@@ -44,12 +44,13 @@ function App() {
     };
   }, []);
 
-
   return (
     <div className="min-h-screen" ref={vantaRef}>
       <section className="min-h-screen relative flex items-center justify-center text-white px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6"><span className="text-blue-400">Tara Sasaank</span> Desu</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="text-blue-400">Tara Sasaank</span> Desu
+          </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-200">
             Full Stack Developer
           </p>
@@ -89,7 +90,6 @@ function App() {
           </h2>
           <div className="flex flex-col md:flex-row gap-8 items-center">
             {/* Profile Image with Glow */}
-            
 
             {/* Description */}
             <div className="flex-1">
@@ -107,7 +107,9 @@ function App() {
                 .
                 <br />
                 <br />
-                Outside of work, you'll find me exploring new corners of the world. Coming to my hobbies I play chess and love solving jigsaw puzzles.
+                Outside of work, you'll find me exploring new corners of the
+                world. Coming to my hobbies I play chess and love solving jigsaw
+                puzzles.
               </p>
             </div>
           </div>
@@ -115,46 +117,118 @@ function App() {
       </section>
 
       {/* Projects Section */}
-<section className="py-20 px-4  text-white">
-  <div className="max-w-6xl mx-auto">
-    <h2 className="text-4xl font-extrabold text-center mb-12  animate-fadeIn">
-      Featured Projects
-    </h2>
+      <section className="py-20 px-4  text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-extrabold text-center mb-12  animate-fadeIn">
+            Featured Projects
+          </h2>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Project 1 */}
-      <ProjectCard
-        title="E-commerce Platform"
-        description="A full-featured online store built with React and Node.js"
-        image="https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop"
-        technologies={["React", "Node.js", "MongoDB"]}
-        link="https://project1.example.com"
-        className="hover:scale-105 transition-transform duration-300"
-      />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <ProjectCard
+              title="E-commerce Platform"
+              description="A full-featured online store built with React and Node.js"
+              image="https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop"
+              technologies={["React", "Node.js", "MongoDB"]}
+              link="https://project1.example.com"
+              className="hover:scale-105 transition-transform duration-300"
+            />
 
-      {/* Project 2 */}
-      <ProjectCard
-        title="Task Management App"
-        description="Real-time collaborative task management application"
-        image="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=500&h=300&fit=crop"
-        technologies={["React", "Firebase", "Tailwind"]}
-        link="https://project2.example.com"
-        className="hover:scale-105 transition-transform duration-300"
-      />
+            {/* Project 2 */}
+            <ProjectCard
+              title="Task Management App"
+              description="Real-time collaborative task management application"
+              image="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=500&h=300&fit=crop"
+              technologies={["React", "Firebase", "Tailwind"]}
+              link="https://project2.example.com"
+              className="hover:scale-105 transition-transform duration-300"
+            />
 
-      {/* Project 3 */}
-      <ProjectCard
-        title="Weather Dashboard"
-        description="Real-time weather tracking with interactive maps"
-        image="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
-        technologies={["React", "OpenWeather API", "ChartJS"]}
-        link="https://project3.example.com"
-        className="hover:scale-105 transition-transform duration-300"
-      />
-    </div>
-  </div>
-</section>
+            {/* Project 3 */}
+            <ProjectCard
+              title="Weather Dashboard"
+              description="Real-time weather tracking with interactive maps"
+              image="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
+              technologies={["React", "OpenWeather API", "ChartJS"]}
+              link="https://project3.example.com"
+              className="hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
+      </section>
 
+      <section className="py-20 px-4 text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-extrabold text-center mb-12 animate-fadeIn">
+            My Journey
+          </h2>
+          <div className="relative">
+            {/* Timeline Line */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-400"></div>
+
+            {/* Timeline Items */}
+            <div className="space-y-12">
+              {/* 2025 */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12 pr-8 text-right">
+                  <h3 className="text-2xl font-bold text-blue-400">2025</h3>
+                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
+                  <p className="text-gray-300 mt-2">
+                    Software Analyst
+                  </p>
+                  <p className="text-sm text-gray-400">
+                    Creating scalable components 
+                  </p>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="w-5/12 pl-8"></div>
+              </div>
+
+              {/* 2024 */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12 pr-8"></div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="w-5/12 pl-8">
+                  <h3 className="text-2xl font-bold text-blue-400">2024</h3>
+                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
+                  <p className="text-gray-300 mt-2">Software Engineer</p>
+                  <p className="text-sm text-gray-400">
+                    Working on different tech stacks, gaining real time frontend skills
+                  </p>
+                </div>
+              </div>
+
+              {/* 2023 */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12 pr-8 text-right">
+                  <h3 className="text-2xl font-bold text-blue-400">2023</h3>
+                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
+                  <p className="text-gray-300 mt-2">Intern</p>
+                  <p className="text-sm text-gray-400">
+                    Gained knowledge on MERN stack and built full stack applications.
+                  </p>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="w-5/12 pl-8"></div>
+              </div>
+
+              {/* 2022 */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12 pr-8"></div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="w-5/12 pl-8">
+                  <h3 className="text-2xl font-bold text-blue-400">2022</h3>
+                  <h4 className="text-2xl font-bold text-blue-400">(Alecado Systems)</h4>
+                  <p className="text-gray-300 mt-2">Intern</p>
+                  <p className="text-sm text-gray-400">
+                    Created responsive websites for clients
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Skills Section */}
       <section className="py-20 px-4 text-white">
