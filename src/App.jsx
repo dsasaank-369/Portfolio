@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="min-h-screen" ref={vantaRef}>
       <section className="min-h-screen relative flex items-center justify-center text-white px-4">
-        <div className="absolute w-[400px] h-[400px] border-4 border-blue-400 rounded-full flex items-center justify-center opacity-50"></div>
+        <div className="absolute w-[380px] h-[380px] border-4 border-blue-400 rounded-full flex items-center justify-center opacity-50"></div>
         <div className="max-w-4xl mx-auto text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-blue-400">Tara Sasaank</span> Desu
