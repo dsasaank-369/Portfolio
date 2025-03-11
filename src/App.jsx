@@ -47,7 +47,8 @@ function App() {
   return (
     <div className="min-h-screen" ref={vantaRef}>
       <section className="min-h-screen relative flex items-center justify-center text-white px-4">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="absolute w-[400px] h-[400px] border-4 border-blue-400 rounded-full flex items-center justify-center opacity-50"></div>
+        <div className="max-w-4xl mx-auto text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-blue-400">Tara Sasaank</span> Desu
           </h1>
@@ -56,19 +57,19 @@ function App() {
           </p>
           <div className="flex justify-center gap-6 mb-12">
             <a
-              href="https://github.com"
+              href="https://github.com/dsasaank-369/"
               className="hover:text-blue-300 transition-colors"
             >
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/tarasasaankdesu/"
               className="hover:text-blue-300 transition-colors"
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:desusasaank369@gmail.com"
               className="hover:text-blue-300 transition-colors"
             >
               <Mail size={24} />
@@ -84,7 +85,7 @@ function App() {
       </section>
 
       <section className="py-20 px-4 flex justify-center ">
-        <div className="max-w-5xl w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 shadow-lg p-10 text-white border-1 rounded-2xl">
+        <div className="max-w-5xl w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl">
           <h2 className="text-4xl font-extrabold text-center mb-8 animate-fadeIn">
             About Me
           </h2>
@@ -172,12 +173,12 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8 text-right">
                   <h3 className="text-2xl font-bold text-blue-400">2025</h3>
-                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
-                  <p className="text-gray-300 mt-2">
-                    Software Analyst
+                  <p className="text-2xl font-bold text-blue-200">
+                    Bounteous
                   </p>
+                  <p className="text-gray-300 mt-2">Software Analyst</p>
                   <p className="text-sm text-gray-400">
-                    Creating scalable components 
+                    Creating scalable components
                   </p>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
@@ -190,10 +191,13 @@ function App() {
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
                 <div className="w-5/12 pl-8">
                   <h3 className="text-2xl font-bold text-blue-400">2024</h3>
-                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
+                  <p className="text-2xl font-bold text-blue-200">
+                    Bounteous
+                  </p>
                   <p className="text-gray-300 mt-2">Software Engineer</p>
                   <p className="text-sm text-gray-400">
-                    Working on different tech stacks, gaining real time frontend skills
+                    Working on different tech stacks, gaining real time frontend
+                    skills
                   </p>
                 </div>
               </div>
@@ -202,10 +206,13 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8 text-right">
                   <h3 className="text-2xl font-bold text-blue-400">2023</h3>
-                  <h4 className="text-2xl font-bold text-blue-400">(Bounteous)</h4>
+                  <p className="text-2xl font-bold text-blue-200">
+                    Bounteous
+                  </p>
                   <p className="text-gray-300 mt-2">Intern</p>
                   <p className="text-sm text-gray-400">
-                    Gained knowledge on MERN stack and built full stack applications.
+                    Gained knowledge on MERN stack and built full stack
+                    applications.
                   </p>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
@@ -218,7 +225,9 @@ function App() {
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
                 <div className="w-5/12 pl-8">
                   <h3 className="text-2xl font-bold text-blue-400">2022</h3>
-                  <h4 className="text-2xl font-bold text-blue-400">(Alecado Systems)</h4>
+                  <p className="text-2xl font-bold text-blue-200">
+                    Alecado Systems
+                  </p>
                   <p className="text-gray-300 mt-2">Intern</p>
                   <p className="text-sm text-gray-400">
                     Created responsive websites for clients
