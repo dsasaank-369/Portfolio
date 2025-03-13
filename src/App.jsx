@@ -6,6 +6,8 @@ import {
   ChevronDown,
   Phone,
   MapPin,
+  FileDown,
+  GraduationCap,
 } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
 import SkillBadge from "./components/SkillBadge";
@@ -158,6 +160,7 @@ function App() {
         </div>
       </section>
 
+      {/* {Roadmap Section} */}
       <section className="py-20 px-4 text-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-extrabold text-center mb-12 animate-fadeIn">
@@ -173,9 +176,7 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8 text-right">
                   <h3 className="text-2xl font-bold text-blue-400">2025</h3>
-                  <p className="text-2xl font-bold text-blue-200">
-                    Bounteous
-                  </p>
+                  <p className="text-2xl font-bold text-blue-200">Bounteous</p>
                   <p className="text-gray-300 mt-2">Software Analyst</p>
                   <p className="text-sm text-gray-400">
                     Creating scalable components
@@ -191,9 +192,7 @@ function App() {
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
                 <div className="w-5/12 pl-8">
                   <h3 className="text-2xl font-bold text-blue-400">2024</h3>
-                  <p className="text-2xl font-bold text-blue-200">
-                    Bounteous
-                  </p>
+                  <p className="text-2xl font-bold text-blue-200">Bounteous</p>
                   <p className="text-gray-300 mt-2">Software Engineer</p>
                   <p className="text-sm text-gray-400">
                     Working on different tech stacks, gaining real time frontend
@@ -206,9 +205,7 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8 text-right">
                   <h3 className="text-2xl font-bold text-blue-400">2023</h3>
-                  <p className="text-2xl font-bold text-blue-200">
-                    Bounteous
-                  </p>
+                  <p className="text-2xl font-bold text-blue-200">Bounteous</p>
                   <p className="text-gray-300 mt-2">Intern</p>
                   <p className="text-sm text-gray-400">
                     Gained knowledge on MERN stack and built full stack
@@ -239,6 +236,33 @@ function App() {
         </div>
       </section>
 
+      {/* Education Section */}
+      <section className="py-20 px-4 text-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-extrabold text-center mb-12 flex items-center justify-center gap-4">
+            <GraduationCap className="text-blue-400" size={40} />
+            Education
+          </h2>
+          <div className="space-y-12">
+            <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-400 before:rounded-full">
+              <div className="absolute -left-2 top-0 w-5 h-5 bg-blue-400 rounded-full"></div>
+              <h3 className="text-2xl font-bold text-blue-200">Bachelor of Technology</h3>
+              <p className="text-xl text-gray-300 mt-2">SASTRA University, Thanjavur</p>
+              <p className="text-l text-gray-300 mt-2">Information and Communication Technology</p>
+              <p className="text-gray-400 mt-1">2019 - 2023</p>
+            </div>
+            
+            <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-400 before:rounded-full">
+              <div className="absolute -left-2 top-0 w-5 h-5 bg-blue-400 rounded-full"></div>
+              <h3 className="text-2xl font-bold text-blue-200">Higher Secondary Education</h3>
+              <p className="text-xl text-gray-300 mt-2">Velociity Junior College</p>
+              <p className="text-l text-gray-300 mt-2">MPC</p>
+              <p className="text-gray-400 mt-1">2017 - 2019</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Skills Section */}
       <section className="py-20 px-4 text-white">
         <div className="max-w-4xl mx-auto">
@@ -253,6 +277,26 @@ function App() {
             <SkillBadge name="React" level="Advanced" />
             <SkillBadge name="JS" level="Advanced" />
           </div>
+        </div>
+      </section>
+
+      {/* Resume Download Section */}
+      <section className="py-20 px-4 flex justify-center">
+        <div className="max-w-5xl w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl text-center">
+          <h2 className="text-4xl font-extrabold mb-8 animate-fadeIn">
+            My Resume
+          </h2>
+          <p className="text-lg text-gray-300 mb-8">
+            Get a detailed look at my experience, skills, and achievements.
+          </p>
+          <a
+            href="/path-to-your-resume.pdf"
+            download
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-colors group"
+          >
+            <FileDown className="group-hover:animate-bounce" size={24} />
+            <span>Download Resume</span>
+          </a>
         </div>
       </section>
 
