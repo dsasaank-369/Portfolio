@@ -87,7 +87,7 @@ function App() {
       </section>
 
       <section className="py-20 px-4 flex justify-center ">
-        <div className="max-w-5xl w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl">
+        <div className="max-w-5xl w-full bg-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl">
           <h2 className="text-4xl font-extrabold text-center mb-8 animate-fadeIn">
             About Me
           </h2>
@@ -255,7 +255,7 @@ function App() {
             <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-400 before:rounded-full">
               <div className="absolute -left-2 top-0 w-5 h-5 bg-blue-400 rounded-full"></div>
               <h3 className="text-2xl font-bold text-blue-200">Higher Secondary Education</h3>
-              <p className="text-xl text-gray-300 mt-2">Velociity Junior College</p>
+              <p className="text-xl text-gray-300 mt-2">Velociity Junior College, Hyderabad</p>
               <p className="text-l text-gray-300 mt-2">MPC</p>
               <p className="text-gray-400 mt-1">2017 - 2019</p>
             </div>
@@ -282,7 +282,7 @@ function App() {
 
       {/* Resume Download Section */}
       <section className="py-20 px-4 flex justify-center">
-        <div className="max-w-5xl w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl text-center">
+        <div className="max-w-5xl w-full bg-gray-900 shadow-lg p-10 text-white border-blue-400 border-1 rounded-2xl text-center">
           <h2 className="text-4xl font-extrabold mb-8 animate-fadeIn">
             My Resume
           </h2>
@@ -366,7 +366,7 @@ function App() {
 
               <button
                 type="submit"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition-colors"
               >
                 Send Message
               </button>
