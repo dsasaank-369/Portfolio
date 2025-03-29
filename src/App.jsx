@@ -12,6 +12,12 @@ import {
 import ProjectCard from "./components/ProjectCard";
 import SkillBadge from "./components/SkillBadge";
 import BIRDS from "vanta/dist/vanta.birds.min";
+import compilerImage from ".././compiler.png";
+import contestImage from ".././contest-tracker.png";
+import sortImage from ".././sort.png";
+
+
+
 
 function App() {
   const vantaRef = useRef(null);
@@ -128,32 +134,32 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
-            <ProjectCard
-              title="E-commerce Platform"
-              description="A full-featured online store built with React and Node.js"
-              image="https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop"
+            {/* <ProjectCard
+              title="ONLINE CODING PLATFORM"
+              description="A full-featured online coding platform where you can compile your code, solve problems and get submissions history. "
+              image={compilerImage}
               technologies={["React", "Node.js", "MongoDB"]}
-              link="https://project1.example.com"
+              link="https://compiler-ue81.onrender.com/"
               className="hover:scale-105 transition-transform duration-300"
-            />
+            /> */}
 
             {/* Project 2 */}
             <ProjectCard
-              title="Task Management App"
-              description="Real-time collaborative task management application"
-              image="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=500&h=300&fit=crop"
-              technologies={["React", "Firebase", "Tailwind"]}
-              link="https://project2.example.com"
+              title="Contest tracker"
+              description="Get upcoming contests of platforms like Leetcode, Codechef and Codeforces."
+              image={contestImage}
+              technologies={["React", "Node", "API"]}
+              link="https://cp-tracker-vx3n.onrender.com/"
               className="hover:scale-105 transition-transform duration-300"
             />
 
             {/* Project 3 */}
             <ProjectCard
-              title="Weather Dashboard"
-              description="Real-time weather tracking with interactive maps"
-              image="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
-              technologies={["React", "OpenWeather API", "ChartJS"]}
-              link="https://project3.example.com"
+              title="Sorting visualizer"
+              description="Visualize 6 sorting algorithms with speed controlled option and get time and space complexities."
+              image={sortImage}
+              technologies={["React", "JS", "HTML", "CSS"]}
+              link="https://sorting-visualizer-texw.onrender.com/"
               className="hover:scale-105 transition-transform duration-300"
             />
           </div>
