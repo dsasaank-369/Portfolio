@@ -12,7 +12,7 @@ import {
 import ProjectCard from "./components/ProjectCard";
 import SkillBadge from "./components/SkillBadge";
 import BIRDS from "vanta/dist/vanta.birds.min";
-import compilerImage from ".././compiler.png";
+// import compilerImage from ".././compiler.png";
 import contestImage from ".././contest-tracker.png";
 import sortImage from ".././sort.png";
 
