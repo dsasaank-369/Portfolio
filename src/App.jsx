@@ -12,7 +12,7 @@ import {
 import ProjectCard from "./components/ProjectCard";
 import SkillBadge from "./components/SkillBadge";
 import BIRDS from "vanta/dist/vanta.birds.min";
-// import compilerImage from ".././compiler.png";
+import compilerImage from ".././compiler.png";
 import contestImage from ".././contest-tracker.png";
 import sortImage from ".././sort.png";
 
@@ -134,14 +134,14 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
-            {/* <ProjectCard
+            <ProjectCard
               title="ONLINE CODING PLATFORM"
               description="A full-featured online coding platform where you can compile your code, solve problems and get submissions history. "
               image={compilerImage}
               technologies={["React", "Node.js", "MongoDB"]}
               link="https://compiler-ue81.onrender.com/"
               className="hover:scale-105 transition-transform duration-300"
-            /> */}
+            />
 
             {/* Project 2 */}
             <ProjectCard
