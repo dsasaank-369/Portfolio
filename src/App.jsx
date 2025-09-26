@@ -16,9 +16,6 @@ import compilerImage from ".././compiler.png";
 import contestImage from ".././contest-tracker.png";
 import sortImage from ".././sort.png";
 
-
-
-
 function App() {
   const vantaRef = useRef(null);
   let vantaEffect = useRef(null);
@@ -107,7 +104,7 @@ function App() {
                 <span className="text-blue-400 font-semibold">
                   full-stack developer
                 </span>{" "}
-                with 2 years of experience building scalable and
+                with 2.6+ years of experience building scalable and
                 high-performance web applications. I specialize in
                 <span className="text-blue-400 font-semibold">
                   {" "}
@@ -180,12 +177,34 @@ function App() {
             <div className="space-y-12">
               {/* 2025 */}
               <div className="relative flex items-center justify-between">
-                <div className="w-5/12 pr-8 text-right">
+                <div className="w-5/12 pr-8 text-right space-y-2">
                   <h3 className="text-2xl font-bold text-blue-400">2025</h3>
                   <p className="text-2xl font-bold text-blue-200">Bounteous</p>
-                  <p className="text-gray-300 mt-2">Software Analyst</p>
+                  <p className="text-gray-300">Senior Software Engineer</p>
                   <p className="text-sm text-gray-400">
-                    Creating scalable components
+                    Built scalable React components and WCAG features, improving
+                    sign-ups by 20%.
+                    <br />
+                    Automated Adobe Target checks and led 500+ AEM pages,
+                    cutting delivery time by 40%.
+                  </p>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="w-5/12 pl-8"></div>
+              </div>
+
+              {/* 2025 */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12 pr-8 text-right space-y-2">
+                  <h3 className="text-2xl font-bold text-blue-400">2025</h3>
+                  <p className="text-2xl font-bold text-blue-200">Bounteous</p>
+                  <p className="text-gray-300">Software Analyst</p>
+                  <p className="text-sm text-gray-400">
+                    Streamlined Adobe Target workflows and testing, boosting
+                    rollout efficiency.
+                    <br />
+                    Collaborated across teams to deliver scalable, personalized
+                    web solutions.
                   </p>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
@@ -196,26 +215,31 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8"></div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
-                <div className="w-5/12 pl-8">
+                <div className="w-5/12 pl-8 space-y-2">
                   <h3 className="text-2xl font-bold text-blue-400">2024</h3>
                   <p className="text-2xl font-bold text-blue-200">Bounteous</p>
-                  <p className="text-gray-300 mt-2">Software Engineer</p>
+                  <p className="text-gray-300">Software Engineer</p>
                   <p className="text-sm text-gray-400">
-                    Working on different tech stacks, gaining real time frontend
-                    skills
+                    Built responsive web apps with React.js and optimized API
+                    performance.
+                    <br />
+                    Contributed to AEM implementations while strengthening
+                    frontend expertise.
                   </p>
                 </div>
               </div>
 
               {/* 2023 */}
               <div className="relative flex items-center justify-between">
-                <div className="w-5/12 pr-8 text-right">
+                <div className="w-5/12 pr-8 text-right space-y-2">
                   <h3 className="text-2xl font-bold text-blue-400">2023</h3>
                   <p className="text-2xl font-bold text-blue-200">Bounteous</p>
-                  <p className="text-gray-300 mt-2">Intern</p>
+                  <p className="text-gray-300">Intern</p>
                   <p className="text-sm text-gray-400">
-                    Gained knowledge on MERN stack and built full stack
+                    Worked on MERN stack projects, building full-stack
                     applications.
+                    <br />
+                    Assisted with React features and learned Agile workflows.
                   </p>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
@@ -226,14 +250,18 @@ function App() {
               <div className="relative flex items-center justify-between">
                 <div className="w-5/12 pr-8"></div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full"></div>
-                <div className="w-5/12 pl-8">
+                <div className="w-5/12 pl-8 space-y-2">
                   <h3 className="text-2xl font-bold text-blue-400">2022</h3>
                   <p className="text-2xl font-bold text-blue-200">
                     Alecado Systems
                   </p>
-                  <p className="text-gray-300 mt-2">Intern</p>
+                  <p className="text-gray-300">Intern</p>
                   <p className="text-sm text-gray-400">
-                    Created responsive websites for clients
+                    Converted Figma designs into responsive React websites for
+                    clients.
+                    <br />
+                    Built reusable components and optimized APIs, improving
+                    efficiency by 30%.
                   </p>
                 </div>
               </div>
@@ -252,16 +280,26 @@ function App() {
           <div className="space-y-12">
             <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-400 before:rounded-full">
               <div className="absolute -left-2 top-0 w-5 h-5 bg-blue-400 rounded-full"></div>
-              <h3 className="text-2xl font-bold text-blue-200">Bachelor of Technology</h3>
-              <p className="text-xl text-gray-300 mt-2">SASTRA University, Thanjavur</p>
-              <p className="text-l text-gray-300 mt-2">Information and Communication Technology</p>
+              <h3 className="text-2xl font-bold text-blue-200">
+                Bachelor of Technology
+              </h3>
+              <p className="text-xl text-gray-300 mt-2">
+                SASTRA University, Thanjavur
+              </p>
+              <p className="text-l text-gray-300 mt-2">
+                Information and Communication Technology
+              </p>
               <p className="text-gray-400 mt-1">2019 - 2023</p>
             </div>
-            
+
             <div className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-400 before:rounded-full">
               <div className="absolute -left-2 top-0 w-5 h-5 bg-blue-400 rounded-full"></div>
-              <h3 className="text-2xl font-bold text-blue-200">Higher Secondary Education</h3>
-              <p className="text-xl text-gray-300 mt-2">Velociity Junior College, Hyderabad</p>
+              <h3 className="text-2xl font-bold text-blue-200">
+                Higher Secondary Education
+              </h3>
+              <p className="text-xl text-gray-300 mt-2">
+                Velociity Junior College, Hyderabad
+              </p>
               <p className="text-l text-gray-300 mt-2">MPC</p>
               <p className="text-gray-400 mt-1">2017 - 2019</p>
             </div>
@@ -275,13 +313,91 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Skills
           </h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            <SkillBadge name="HTML" level="Expert" />
-            <SkillBadge name="CSS" level="Expert" />
-            <SkillBadge name="Node.js" level="Advanced" />
-            <SkillBadge name="MongoDB" level="Advanced" />
-            <SkillBadge name="React" level="Advanced" />
-            <SkillBadge name="JS" level="Advanced" />
+
+          <div className="flex flex-wrap justify-center gap-4 skills-container">
+            {/* Core Frontend */}
+            <div>
+              <SkillBadge name="HTML" level="Expert" />
+            </div>
+            <div className="delay-100">
+              <SkillBadge name="CSS" level="Expert" />
+            </div>
+            <div className="delay-200">
+              <SkillBadge name="JavaScript (ES6+)" level="Advanced" />
+            </div>
+            <div className="delay-300">
+              <SkillBadge name="React.js" level="Advanced" />
+            </div>
+            <div className="delay-500">
+              <SkillBadge name="Angular" level="Intermediate" />
+            </div>
+
+            {/* Backend & APIs */}
+            <div className="delay-700">
+              <SkillBadge name="Node.js" level="Advanced" />
+            </div>
+            <div className="delay-1000">
+              <SkillBadge name="Express.js" level="Advanced" />
+            </div>
+            <div className="delay-1200">
+              <SkillBadge name="REST APIs" level="Advanced" />
+            </div>
+
+            {/* Databases */}
+            <div>
+              <SkillBadge name="MongoDB" level="Advanced" />
+            </div>
+            <div className="delay-200">
+              <SkillBadge name="SQL" level="Intermediate" />
+            </div>
+
+            {/* Programming Languages */}
+            <div className="delay-400">
+              <SkillBadge name="Java" level="Intermediate" />
+            </div>
+            <div className="delay-600">
+              <SkillBadge name="Python" level="Intermediate" />
+            </div>
+            <div className="delay-800">
+              <SkillBadge name="C++" level="Intermediate" />
+            </div>
+
+            {/* Tools & Platforms */}
+            <div>
+              <SkillBadge name="Git" level="Advanced" />
+            </div>
+            <div className="delay-200">
+              <SkillBadge name="Bitbucket" level="Advanced" />
+            </div>
+            <div className="delay-400">
+              <SkillBadge name="AWS" level="Intermediate" />
+            </div>
+            <div className="delay-600">
+              <SkillBadge name="Docker" level="Intermediate" />
+            </div>
+            <div className="delay-800">
+              <SkillBadge name="Kubernetes" level="Intermediate" />
+            </div>
+            <div className="delay-1000">
+              <SkillBadge name="Postman" level="Advanced" />
+            </div>
+            <div className="delay-1200">
+              <SkillBadge name="Jira" level="Advanced" />
+            </div>
+            <div className="delay-1400">
+              <SkillBadge name="Confluence" level="Advanced" />
+            </div>
+            <div className="delay-1600">
+              <SkillBadge name="CI/CD" level="Intermediate" />
+            </div>
+
+            {/* Practices */}
+            <div>
+              <SkillBadge name="Agile" level="Advanced" />
+            </div>
+            <div className="delay-200">
+              <SkillBadge name="Accessibility (WCAG)" level="Advanced" />
+            </div>
           </div>
         </div>
       </section>
@@ -296,7 +412,7 @@ function App() {
             Get a detailed look at my experience, skills, and achievements.
           </p>
           <a
-            href="/path-to-your-resume.pdf"
+            href="https://drive.google.com/file/d/1N4WX1Tx0uBExWbI5h6RAfPtNEYGwzn9w/view?usp=drive_link"
             download
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-colors group"
           >

@@ -1,6 +1,70 @@
 @import "tailwindcss";
 
-
-body{
+body {
   background-color: #06192f;
+}
+
+@keyframes jump-fast {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes jump-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.skills-container > div:nth-child(odd) {
+  animation: jump-fast 1.5s ease-in-out infinite;
+}
+
+.skills-container > div:nth-child(even) {
+  animation: jump-slow 2s ease-in-out infinite;
+}
+
+.skills-container > div.delay-100 {
+  animation-delay: 0.1s;
+}
+.skills-container > div.delay-200 {
+  animation-delay: 0.2s;
+}
+.skills-container > div.delay-300 {
+  animation-delay: 0.3s;
+}
+.skills-container > div.delay-400 {
+  animation-delay: 0.4s;
+}
+.skills-container > div.delay-500 {
+  animation-delay: 0.5s;
+}
+.skills-container > div.delay-600 {
+  animation-delay: 0.6s;
+}
+.skills-container > div.delay-700 {
+  animation-delay: 0.7s;
+}
+.skills-container > div.delay-800 {
+  animation-delay: 0.8s;
+}
+.skills-container > div.delay-1000 {
+  animation-delay: 1s;
+}
+.skills-container > div.delay-1200 {
+  animation-delay: 1.2s;
+}
+.skills-container > div.delay-1400 {
+  animation-delay: 1.4s;
+}
+.skills-container > div.delay-1600 {
+  animation-delay: 1.6s;
 }
